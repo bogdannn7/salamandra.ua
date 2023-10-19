@@ -999,26 +999,34 @@ button{
         margin-left: 80px;
     }
 
+    .cards-holder{
+        margin-left: 60px;
+    }
+
+    .cards-holder1{
+        margin-left: 60px;
+        padding-top: 20px;
+    }
+
     .map{
-        width: 380px;
-        height: 380px;
-        
+        width: 375px;
+        height: 375px;
+        margin-left: 0px;
     }
 
     .mapp{
-        width: 380px;
-        height: 380px;
+        width: 375px;
+        height: 375px;
     }
 
     .rezerv{
         padding-top: 50px;
-        width: 380px;
         padding-left: 0px;
-        margin-left: 0px;
+        width: 375px;
     }
 
     .rezerv-bg{
-        width: 380px;
+        width: 375px;
     }
     
         
@@ -1038,7 +1046,7 @@ button{
         font-size: 10px;
     }
 }
-@media(max-width: 530px){
+@media(max-width: 536px){
 
     .header-logo {
         float: left;
@@ -1072,7 +1080,7 @@ button{
     }
 
     .cards-holder{
-        margin-left: 35px;
+        margin-left: 110px;
     }
 
     .card{
@@ -1081,7 +1089,7 @@ button{
     }
 
     .cards-holder1{
-        margin-left: 35px;
+        margin-left: 110px;
         padding-top: 20px;
     }
 
@@ -1180,6 +1188,12 @@ button{
         height: 30px;
     }
 
+    .right-btn{
+        margin-left: 180px;
+        width: 150px;
+    }
+
+
 }
 
 @media(max-width: 510px){
@@ -1214,7 +1228,7 @@ button{
     }
 
     .right-btn{
-        margin-left: 100px;
+        margin-left: 160px;
         width: 150px;
     }
 
@@ -1222,6 +1236,64 @@ button{
         padding-top: 50px;
         margin-left: 15px;
         width: 350px;
+    }
+
+    .map{
+        width: 375px;
+        height: 375px;
+        margin-left: 0px;
+    }
+
+    .rezerv-block{
+        margin-left: 40px;
+    }
+
+    .mapp{
+        width: 375px;
+        height: 375px;
+    }
+
+    .rezerv{
+        padding-top: 50px;
+        padding-left: 0px;
+        width: 375px;
+    }
+
+    .rezerv-bg{
+        width: 375px;
+    }
+}
+
+@media(max-width: 445){
+    .rezerv-block{
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    .mapp{
+        width: 350px;
+        height: 350px;
+        margin-left: 0px;
+    }
+
+    .rezerv{
+        padding-top: 50px;
+        padding-left: 0px;
+        margin-left: 0px;
+        width: 350px;
+    }
+
+    .rezerv-bg{
+        width: 350px;
+    }
+
+    .cards-holder{
+        margin-left: 0px;
+    }
+
+    .cards-holder1{
+        margin-left: 0px;
+        padding-top: 20px;
     }
 }
 
@@ -1444,7 +1516,7 @@ button{
     .header-sup{
         font-size: 12px;
     }
-    
+
     .cards-holder{
         margin-left: 35px;
         width: 200px;
