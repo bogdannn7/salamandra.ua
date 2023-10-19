@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Tinos:wght@400;700&display=swap" rel="stylesheet">
+    <title>Salamandra Spa</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+            <div class="header-line">
+                <div class="header-logo">
+                    <img class="logo" src="/photo/salamander1.svg">
+                </div>
+
+                <div class="nav">
+                    <a class="nav-item" href="#" onclick="goToDiv('inf')">ПРО НАС</a>
+                    <a class="nav-item" href="#" onclick="goToDiv('gal')">ГАЛЕРЕЯ</a>
+                    <a class="nav-item" href="#" onclick="goToDiv('rez')">РЕЗЕРВУВАННЯ</a>
+                </div>
+
+                <div class="phone">
+                    <div class="phone-hol">
+                        <div class="phone-img">
+                            <img src="photo/phone.png" alt="">
+                        </div>
+                        <div class="number">
+                            <a class="num" href="#">+38(097)262-64-78</a> <br>
+                            <a class="num" href="#">+38(099)633-45-73</a>
+                        </div>
+                    </div>
+                
+                    <div class="phone-text">
+                        Номер телефону для <br> резервування
+                    </div>
+                </div>
+
+                <div class="but">
+                    <a class="button" href="#" onclick="goToDiv('rez')">РЕЗЕРВУВАННЯ</a>
+                </div> 
+                
+                <div class="menu">
+                    <button id="men"><img src="photo/Group.png" alt=""></button>
+                    
+                    <div id="slide" class="menu-slide disp">
+                        <a class="nav-item block" href="#" onclick="goToDiv('inf')">Про нас</a>
+                        <a class="nav-item block" href="#" onclick="goToDiv('gal')">Галерея</a>
+                        <a class="nav-item block" href="#" onclick="goToDiv('rez')">Резерв</a>
+                    </div>
+                </div>
+            </div>
+            <div class="header-down">
+
+                <div class="header-title">
+                    SALAMANDRA Spa
+
+                    <div class="header-subtitle">
+                        (чан, джакузі та сауна)
+                    </div>
+
+                    <div class="header-sup">
+                        РЕЛАКС І ВІДНОВЛЕННЯ
+                    </div>
+
+                    <div class="header-btn">
+                        <a class="header-button" href="#" onclick="goToDiv('rez')">ТАРИФИ</a>
+                    </div>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="cards-holder">
+                    <div class="card">
+                        <div class="card-image">
+                            <img class="card-img" src="photo/sauna2.svg" alt="">
+                        </div>
+            
+                        <div class="card-title">
+                            Сауна на дровах
+                        </div>
+            
+                        <div class="card-desc">
+                            Головна родзинка закладу - лазня на дровах,<br>
+                            сповнена неповторного аромату деревини,<br>
+                            що допомагає повністю розслабитися<br>
+                            та відпочити від міської метушні.
+                        </div>
+                    </div>
+            
+                    <div class="card">
+                        <div class="card-image">
+                            <img class="card-img" src="photo/hot.svg" alt="">
+                        </div>
+            
+                        <div class="card-title">
+                            Басейн-джакузі з підігрівом
+                        </div>
+            
+                        <div class="card-desc">
+                            На території SALAMANDRA Spa також<br>
+                            розташований гідромасажний басейн-джакузі,<br>
+                            що надає ідеальне місце для релаксації<br>
+                             та відпочинку
+                        </div>
+                    </div>
+            
+                    <div class="card">
+                        <div class="card-image">
+                            <img class="card-img" src="photo/aromatherapy.svg" alt="">
+                        </div>
+            
+                        <div class="card-title">
+                            Ароматерапія
+                        </div>
+            
+                        <div class="card-desc">
+                            Ароматерапія - дорога до глибокого релаксу, оновлення і зняття стресу
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="cards-holder1">
+                    <div class="card">
+                        <div class="card-image">
+                            <img class="card-img" src="photo/bath.svg" alt="">
+                        </div>
+            
+                        <div class="card-title">
+                            Дубова холодна купель
+                        </div>
+            
+                        <div class="card-desc">
+                            Дубова холодна купель - ідеальний спосіб <br>
+                            покращити кровообіг та відновити тонус<br>
+                            Підкресліть свою життєву силу та енергію,<br>
+                            занурюючись у прохолодну дубову воду.<br>
+                            Відчуйте внутрішню гармонію та бадьорість.<br>
+                        </div>
+                    </div>
+            
+                    <div class="card">
+                        <div class="card-image">
+                            <img class="card-img" src="photo/massage.svg" alt="">
+                        </div>
+            
+                        <div class="card-title">
+                            Масажний стіл
+                        </div>
+            
+                        <div class="card-desc">
+                            Масажний стіл допоможе піти від усіх думок<br>
+                            і просто розслабитися під руками професіонала.
+                        </div>
+                    </div>
+            
+                    <div class="card">
+                        <div class="card-image">
+                            <img class="card-img" src="photo/shower.svg" alt="">
+                        </div>
+            
+                        <div class="card-title">
+                            Відро-водоспад
+                        </div>
+            
+                        <div class="card-desc">
+                            Відро-водоспад особливо актуальне після лазні,<br>
+                            створюючи ефект контрастної терапії,<br>
+                            який веде до значного оздоровлення організму.
+                        </div>
+                    </div>
+                    
+                </div>
+
+            </div>
+        
+    </div>
+
+    <div id="inf" class="info">
+        <div class="info-holder">
+            <div class="info-i">
+                <div class="info-title">
+                    Про <span>Нас</span>
+                </div>
+    
+                <div class="info-desc">
+                    Сауна «SALAMANDRA Spa» — неймовірна користь для вашого фізичного здоров’я
+                    та особлива турбота про психіку!Ми вміло зупиняємо шалений ритм життя та
+                    даруємо своїм клієнтам насолоду від справжнього відпочинку,що сповнений релаксом.
+                    А все завдяки тому, що нам вдалось поєднати сауну та SPA на свіжому повітрі,
+                    аби постійний стрес, недосипання та напруга в тілі надовго залишила ваше тіло.
+                    Саме у нас можна відновити життєві сили, отримати потрібну наснагу та зміцнити імунну систему,
+                    а затишна атмосфера та ідеальна чистота гармонійно доповнять чарівний відпочинок!
+                </div>
+            </div>
+    
+            <div class="info-images">
+                <img class="image1" src="photo/it1.png" alt="">
+                <img class="image2" src="photo/it2.png" alt="">
+                <img class="image3" src="photo/it3.png" alt="">
+            </div>
+        </div>
+    
+    </div>
+
+    <div class="black-block">
+            <div class="block-holder">
+                <div class="left">
+                    <div class="left-title">
+                        Чому саме ми?
+                    </div>
+                    <div class="left-text">
+                        <span>SALAMANDRA Spa</span> - це місце, де гармонійно поєднуються природна краса і високий комфорт.<br>
+                        Чудово розташований у мальовничому місці поруч з озером,<br>
+                        спа-центр приваблює своєю атмосферою умиротворення і розслаблення.<br>
+                        Місткість комплексу становить 8 осіб, що дає змогу забезпечити кожному гостю персональний простір і комфорт.
+                    </div>
+                </div>
+    
+                <div class="right">
+                    <div class="right-button">
+                        <div class="right-btn" onclick="goToDiv('rez')">РЕЗЕРВУВАННЯ</div>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <div id="gal" class="galery">
+        <div class="galery-title">
+            Фото <span>Галерея</span>
+        </div>
+        <div class="photos-list">
+            <a href="galary/photo1.jpg" class="photo-item">
+                <div class="photo-item-hover">Подивитись</div>
+                <img src="galary/photo1.jpg" alt="alt">
+            </a>
+            <a href="galary/photo2.jpg" class="photo-item">
+                <div class="photo-item-hover">Подивитись</div>
+                <img src="galary/photo2.jpg" alt="alt">
+            </a>
+            <a href="galary/photo3.jpg" class="photo-item">
+                <div class="photo-item-hover">Подивитись</div>
+                <img src="galary/photo3.jpg" alt="alt">
+            </a>
+            <a href="galary/photo4.jpg" class="photo-item">
+                <div class="photo-item-hover">Подивитись</div>
+                <img src="galary/photo4.jpg" alt="alt">
+            </a>
+            <a href="galary/photo5.jpg" class="photo-item">
+                <div class="photo-item-hover">Подивитись</div>
+                <img src="galary/photo5.jpg" alt="alt">
+            </a>
+            <a href="galary/photo6.jpg" class="photo-item">
+                <div class="photo-item-hover">Подивитись</div>
+                <img src="galary/photo6.jpg" alt="alt">
+            </a>
+            <a href="galary/photo7.jpg" class="photo-item">
+                <div class="photo-item-hover">Подивитись</div>
+                <img src="galary/photo7.jpg" alt="alt">
+            </a>
+            <a href="galary/photo8.jpg" class="photo-item">
+                <div class="photo-item-hover">Подивитись</div>
+                <img src="galary/photo8.jpg" alt="alt">
+            </a>
+            <a href="galary/photo9.jpg" class="photo-item">
+                <div class="photo-item-hover">Подивитись</div>
+                <img src="galary/photo9.jpg" alt="alt">
+            </a>
+            <a href="galary/photo10.jpg" class="photo-item">
+                <div class="photo-item-hover">Подивитись</div>
+                <img src="galary/photo10.jpg" alt="alt">
+            </a>
+            <a href="galary/photo11.jpg" class="photo-item">
+                <div class="photo-item-hover">Подивитись</div>
+                <img src="galary/photo11.jpg" alt="alt">
+            </a>
+            <a href="galary/photo12.jpg" class="photo-item">
+                <div class="photo-item-hover">Подивитись</div>
+                <img src="galary/photo12.jpg" alt="alt">
+            </a>
+            <a href="galary/photo13.jpg" class="photo-item">
+                <div class="photo-item-hover">Подивитись</div>
+                <img src="galary/photo13.jpg" alt="alt">
+            </a>
+            <a href="galary/photo14.jpg" class="photo-item">
+                <div class="photo-item-hover">Подивитись</div>
+                <img src="galary/photo14.jpg" alt="alt">
+            </a>
+            <a href="galary/photo15.jpg" class="photo-item">
+                <div class="photo-item-hover">Подивитись</div>
+                <img src="galary/photo15.jpg" alt="alt">
+            </a>
+            <a href="galary/photo16.jpg" class="photo-item">
+                <div class="photo-item-hover">Подивитись</div>
+                <img src="galary/photo16.jpg" alt="alt">
+            </a>
+            <a href="galary/photo17.png" class="photo-item">
+                <div class="photo-item-hover">Подивитись</div>
+                <img src="galary/photo17.png" alt="alt">
+            </a>
+            <a href="galary/photo18.png" class="photo-item">
+                <div class="photo-item-hover">Подивитись</div>
+                <img src="galary/photo18.png" alt="alt">
+            </a>
+            <a href="galary/photo19.png" class="photo-item">
+                <div class="photo-item-hover">Подивитись</div>
+                <img src="galary/photo19.png" alt="alt">
+            </a>
+        </div>
+    </div>
+
+    <div class="dod">
+        <div class="dod-title">
+            Наше спа також включає:
+        </div>
+        <div class="dod-card-holder">
+            <div class="dod-card">
+                <div class="dod-card-image">
+                    <img class="card-img" src="photo/tv-box.svg" alt="">
+                </div>
+    
+                <div class="dod-card-title">
+                    WiFi/TV
+                </div>
+            </div>
+            <div class="dod-card">
+                <div class="dod-card-image">
+                    <img class="card-img" src="photo/bed.svg" alt="">
+                </div>
+    
+                <div class="dod-card-title">
+                    Кімната відпочинку
+                </div>
+            </div>
+            <div class="dod-card">
+                <div class="dod-card-image">
+                    <img class="card-img" src="photo/terrace.svg" alt="">
+                </div>
+    
+                <div class="dod-card-title">
+                    Літня тераса 
+                </div>
+            </div>
+            <div class="dod-card">
+                <div class="dod-card-image">
+                    <img class="card-img" src="photo/barbecue.svg" alt="">
+                </div>
+
+                <div class="dod-card-title">
+                    Мангал
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="rez" class="rezerv-block">
+        <div class="location">
+            <div class="location-title">
+                Розташування:
+            </div>
+            <div class="map">
+                <div  style="width: 100%">
+                    <iframe class="mapp" width="500px" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=48.88303358399088%2024.730669856044496+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="rezerv">
+            <div class="rezerv-bg">
+                <div class="rezerv-title">
+                    Вартість та умови
+                </div>
+                <div class="price">
+                    Від ₴170/год
+                </div>
+                <div class="rezerv-info">
+                    ✔ Графік роботи 8.00-23.00    
+                </div>
+                <div class="rezerv-info">
+                    ✔ Оренда від 2-х годин   
+                </div>
+                <div class="rezerv-info">
+                    ✔ Місткість до 8 осіб включно   
+                </div>
+                <div class="rezerv-info">
+                    ✔ Бар-студія (за додаткову оплату)    
+                </div>
+                <div class="bron">
+                    Для резервування дзвоніть за номером телефону
+                </div>
+            </div>   
+            <div class="ad-info">
+                <div class="ad-info-title">
+                    У вартість враховано:
+                </div>
+                <div class="ad-card-holder">
+                    <div class="ad-card">
+                        <div class="ad-card-image">
+                            <img class="ad-card-img" src="photo/towel.svg" alt="">
+                        </div>
+            
+                        <div class="ad-card-title">
+                            Рушник
+                        </div>
+                    </div>
+                    <div class="ad-card">
+                        <div class="ad-card-image">
+                            <img class="ad-card-img" src="photo/slippers.svg" alt="">
+                        </div>
+            
+                        <div class="ad-card-title">
+                            Капці
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="col-holder">
+            <div class="footer-f">
+                <div class="comun-title">
+                    Нас рекомендують:
+                </div>
+                <div class="rowf-img">
+                    <a class="foter-img" href="https://vsebani.com.ua/ivano-frankivsk-salamandra-spa">
+                        <img class="foter-img" src="photo/Frame 4.svg">
+                    </a>
+                    <a href="https://bani.ua/uk/salamandra-spa-1966">
+                        <img class="foter-img" src="photo/Frame 5.svg">
+                    </a>
+                </div>
+            </div>
+            <div class="footer-sec">
+                <div class="comun-title">
+                    Контакти:
+                </div>
+                <div class="first-row">
+                    <div class="row-image">
+                        <div class="row-img">
+                            <img src="photo/phone.png">
+                        </div>
+                        
+                    </div>
+                    <div class="fr-description">
+                        <a class="num" href="tel:+380996334573">+38(097)262-64-78</a>
+                        
+                    </div>
+                </div>
+                <div class="first-row">
+                    <div class="row-image">
+                        <div class="row-img">
+                            <img src="photo/phone.png">
+                        </div>
+                       
+                    </div>
+                    <div class="fr-description">
+                        
+                        <a class="num" href="tel:+380996334573">+38(099)633-45-73</a>
+                    </div>
+                </div>
+
+                <div class="first-row">
+                    <div class="row-image">
+                        <div class="row-img">
+                            <img src="photo/image7.png">
+                        </div>
+                        
+                    </div>
+                    <div class="fr-description">
+                        <a class="num" href="https://www.google.com/maps/dir//48.8830336,24.7306699/@48.8830949,24.7306589,18.22z?entry=ttu">м.Хриплин вул.Героїв Упа</a>
+                        
+                    </div>
+                </div>
+
+                <div class="soc-media">
+                    <dic class="media-images">
+                        <a class="soc-url" href="#">
+                            <img class="img-soc" src="photo/viber1.svg">
+                        </a>
+                    </dic>
+                    <dic class="media-images">
+                        <a class="soc-url" href="#">
+                            <img class="img-soc" src="photo/facebook1.svg">
+                        </a>
+                    </dic>
+                    <dic class="media-images">
+                        <a class="soc-url" href="#">
+                            <img class="img-soc" src="photo/phone-call1.svg">
+                        </a>
+                    </dic>
+                </div>
+            </div>
+            
+        </div>
+       
+        
+    </div>
+
+
+
+    <script src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+    <script>
+    $(".photos-list").magnificPopup({
+        delegate:"a",
+        type: "image",
+        galery: {
+            enable: true
+        }
+    });
+    </script>
+    
+</body>
+</html>
