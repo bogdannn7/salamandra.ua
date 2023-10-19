@@ -423,11 +423,11 @@ section.galery{
 
 .location{
     padding-top: 170px;
-    padding-left: 100px;
+    padding-left: 200px;
 }
 
 .location-title{
-    fonrezefootert-family: 'Tinos', serif;
+    font-family: 'Tinos', serif;
     padding-bottom: 10px;
     text-align: center;
     font-weight: 700;
@@ -932,6 +932,45 @@ button{
     .first-row{
         margin-left: 50px;
     }
+
+    .rezerv-block{
+        margin-left: 140px;
+        padding-bottom: 100px;
+        width: 420px;
+    }
+    
+    .location-title{
+        text-align: center;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    
+    .location{
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    .mapp{
+        width: 400px;
+        height: 400px;
+    }
+    .map{
+        margin-left: 0px;
+        width: 400px;
+        height: 400px;
+    }
+
+    .rezerv{
+        width: 400px;
+        height: 400px;
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+
+    .rezerv-bg{
+        width: 400px;
+        height: 400px;
+    }
 }
 
 @media(max-width: 640px){
@@ -951,6 +990,39 @@ button{
     .first-row{
         margin-left: 10px;
     }
+    
+    .right-button{
+        margin-right: 100px;
+    }
+
+    .rezerv-block{
+        margin-left: 80px;
+    }
+
+    .map{
+        width: 380px;
+        height: 380px;
+        
+    }
+
+    .mapp{
+        width: 380px;
+        height: 380px;
+    }
+
+    .rezerv{
+        padding-top: 50px;
+        width: 380px;
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+
+    .rezerv-bg{
+        width: 380px;
+    }
+    
+        
+
 }
 
 @media(max-width: 550px){
@@ -1144,6 +1216,12 @@ button{
     .right-btn{
         margin-left: 100px;
         width: 150px;
+    }
+
+    .rezerv{
+        padding-top: 50px;
+        margin-left: 15px;
+        width: 350px;
     }
 }
 
@@ -1366,9 +1444,10 @@ button{
     .header-sup{
         font-size: 12px;
     }
-
+    
     .cards-holder{
         margin-left: 35px;
+        width: 200px;
     }
 
     .card{
@@ -1379,11 +1458,17 @@ button{
     .cards-holder1{
         margin-left: 35px;
         padding-top: 20px;
+        width: 200px;
     }
 
     .info{
         padding-top: 2100px;
         padding-bottom: 100px;
+        margin-left: 50px;
+    }
+
+    .info-desc{
+        width: 300px;
     }
 
     .right{
@@ -1413,24 +1498,24 @@ button{
     }
 
     .map{
-        width: 400px;
-        height: 400px;
-        margin-left: 5px;
+        width: 389px;
+        height: 389px;
+        margin-left: 0px;
     }
 
     .mapp{
-        width: 400px;
-        height: 400px;
+        width: 389px;
+        height: 389px;
     }
 
     .rezerv{
         padding-top: 50px;
-        padding-left: 5px;
-        width: 400px;
+        margin-left: 0px;
+        width: 389px;
     }
 
     .rezerv-bg{
-        width: 400px;
+        width: 389px;
     }
 
     .footer{
@@ -1449,6 +1534,14 @@ button{
     .cards{
         margin-left: 12px;
     }
+
+    
+    .rezerv-block{
+        margin-left: 2px;
+        padding-bottom: 100px;
+        width: 389px;
+    }
+    
 }
 
 @media(max-width: 400px){
@@ -1470,12 +1563,12 @@ button{
 
     .rezerv{
         padding-top: 50px;
-        padding-left: 3px;
-        width: 380px;
+       margin-left: 15px;
+        width: 350px;
     }
 
     .rezerv-bg{
-        width: 380px;
+        width: 350px;
     }
 
     .ad-card-holder{
